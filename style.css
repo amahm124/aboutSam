@@ -1,0 +1,39 @@
+.header {
+    padding: 60px;
+    text-align: center;
+    background: goldenrod;
+    color: white;
+    font-size: 30px;
+  }
+.body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Gym {background-color:blue;}
+#Rollerskate {background-color: green;}
+#Music {background-color: rgb(0, 217, 255);}
